@@ -1,4 +1,4 @@
-# my-vue3-project
+# wedding-management-admin
 
 ## Project setup
 ```
