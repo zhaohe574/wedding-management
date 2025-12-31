@@ -255,7 +255,7 @@ git status
 # 添加文件
 git add .
 
-# 提交更改
+# 提交更改（使用UTF-8编码）
 git commit -m "提交说明"
 
 # 推送到远程仓库
@@ -264,4 +264,12 @@ git push origin main
 # 拉取远程更新
 git pull origin main
 ```
+
+### Git 编码配置
+
+项目已配置正确的 UTF-8 编码设置，确保中文提交信息正确显示：
+- `i18n.commitencoding=utf-8` - 提交信息使用 UTF-8
+- `i18n.logoutputencoding=utf-8` - 日志输出使用 UTF-8
+- `core.quotepath=false` - 不转义路径中的非ASCII字符
+- `core.precomposeunicode=true` - 正确处理Unicode字符
 
