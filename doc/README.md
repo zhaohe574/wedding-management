@@ -6,6 +6,7 @@
 - **版本**: v1.0.0
 - **目标平台**: 微信小程序
 - **技术栈**: ThinkPHP 8.0 + uni-app + Vue 3
+- **Git 仓库**: https://github.com/zhaohe574/wedding-management.git
 
 ---
 
@@ -234,5 +235,33 @@ npm run dev
 
 ---
 
-**最后更新**: 2025-01-01
+**最后更新**: 2025-01-31
+
+## 版本控制
+
+### Git 仓库配置
+
+项目已连接到 GitHub 远程仓库：
+- **远程仓库地址**: https://github.com/zhaohe574/wedding-management.git
+- **主分支**: main
+- **初始化时间**: 2025-01-31
+
+### 常用 Git 命令
+
+```bash
+# 查看状态
+git status
+
+# 添加文件
+git add .
+
+# 提交更改
+git commit -m "提交说明"
+
+# 推送到远程仓库
+git push origin main
+
+# 拉取远程更新
+git pull origin main
+```
 
