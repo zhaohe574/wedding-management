@@ -2,7 +2,7 @@
 
 ## 项目信息
 
-- **项目名称**: 婚庆管家（Wedding Host Manager）
+- **项目名称**: 婚庆管家（wedding Host Manager）
 - **版本**: v1.0.0
 - **目标平台**: 微信小程序
 - **技术栈**: ThinkPHP 8.0 + uni-app + Vue 3
@@ -41,10 +41,10 @@
 
 ```bash
 # 创建项目
-composer create-project topthink/think Wedding-management-api
+composer create-project topthink/think wedding-management-api
 
 # 进入目录
-cd Wedding-management-api
+cd wedding-management-api
 
 # 安装依赖
 composer require firebase/php-jwt
@@ -56,7 +56,7 @@ cp .example.env .env
 
 # 创建数据库并导入表结构
 # 注意：请根据 02-数据库设计文档.md 中的表结构生成SQL脚本
-mysql -u root -p < database/Wedding_management.sql
+mysql -u root -p < database/wedding_management.sql
 
 # 启动开发服务器
 php think run
@@ -66,10 +66,10 @@ php think run
 
 ```bash
 # 创建项目
-npx degit dcloudio/uni-preset-vue#vite-ts Wedding-management-miniapp
+npx degit dcloudio/uni-preset-vue#vite-ts wedding-management-miniapp
 
 # 进入目录
-cd Wedding-management-miniapp
+cd wedding-management-miniapp
 
 # 安装依赖
 npm install
@@ -102,10 +102,10 @@ npm run dev:mp-weixin
 
 ```bash
 # 创建项目
-npm create vite@latest Wedding-management-admin -- --template vue-ts
+npm create vite@latest wedding-management-admin -- --template vue-ts
 
 # 进入目录
-cd Wedding-management-admin
+cd wedding-management-admin
 
 # 安装依赖
 npm install
